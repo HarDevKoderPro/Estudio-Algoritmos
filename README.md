@@ -1,6 +1,8 @@
-# Plan de Estudio - Algoritmos para Entrevistas Técnicas
+## 📖 Plan de Estudio - Algoritmos y POO Para Entrevistas Técnicas
 
-## 📚 Plan Progresivo por Unidades (Lenguaje Agnóstico)
+Este plan de estudio está diseñado para preparar a desarrolladores para entrevistas técnicas, cubriendo una amplia gama de algoritmos y estructuras de datos, con un enfoque práctico en JavaScript y la integración de conceptos de Programación Orientada a Objetos (POO) y objetos literales (JSON).
+
+## 📚 Plan Progresivo por Unidades (Enfoque: JS y Entrevistas)
 
 ---
 
@@ -172,18 +174,60 @@
 
 ---
 
-### **UNIDAD 20: Simulacro de Entrevistas**
+### **UNIDAD 20: Objetos Literales (JSON) en JavaScript**
+- Estructura y sintaxis de JSON
+- Acceso y manipulación de propiedades
+- Métodos útiles: `JSON.stringify()` y `JSON.parse()`
+- Uso de objetos literales como estructuras de datos
+- Ejercicios prácticos: almacenar y procesar datos con JSON
+
+---
+
+### **UNIDAD 21: Programación Orientada a Objetos (POO) en JavaScript**
+- Conceptos: clases, objetos, instancias
+- Constructores y métodos
+- Herencia y polimorfismo
+- Encapsulamiento con `private` y `#fields`
+- Ejercicios prácticos: modelar entidades reales con POO
+
+---
+
+### **UNIDAD 22: Simulacro de Entrevistas Integrador**
 - Problemas mixtos multi-concepto
 - Time management en entrevistas
-- Communication skills
-- Problem-solving methodology
-- Mock interview sessions
+- Comunicación clara de soluciones
+- Ejercicio integrador acumulativo
+
+---
+
+## 🧑‍💻 Ejercicio Integrador (JSON + POO + Algoritmos)
+
+Diseña un sistema en JavaScript que:
+
+1. **Gestión de estudiantes (JSON):**
+   - Representar estudiantes como objetos literales en JSON con propiedades: nombre, edad, calificaciones.
+   - Funciones para agregar, editar y eliminar estudiantes.
+2. **POO con clases:**
+   - Implementar una clase `Curso` que agrupe estudiantes.
+   - Métodos para calcular promedio de calificaciones, mejor y peor estudiante.
+3. **Aplicación de algoritmos:**
+   - Implementar búsqueda binaria para localizar un estudiante por nombre.
+   - Ordenar estudiantes por calificación (QuickSort o MergeSort).
+   - Usar recursión para encontrar la calificación máxima en el dataset.
+4. **Desafío final:**
+   - Dado un grupo de cursos, encontrar el curso con mayor promedio utilizando POO, JSON y algoritmos.
+   - Imprimir los resultados de forma clara en consola.
 
 ---
 
 ## 📊 Estructura del Plan
-- **Duración total**: 20-24 semanas
-- **Progresión**: De básico a avanzado
-- **Enfoque**: Preparación específica para entrevistas
-- **Lenguaje**: Agnóstico (aplicable a cualquier lenguaje)
-- **Metodología**: Teoría + Práctica + Simulacros
+- **Duración total**: 22-26 semanas  
+- **Progresión**: De básico a avanzado + POO en JS  
+- **Enfoque**: Preparación específica para entrevistas  
+- **Lenguaje**: JavaScript como guía principal  
+- **Metodología**: Teoría + Práctica + Proyecto integrador  
+"""
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(content)
+
+print("Archivo README.md listo para descarga")
