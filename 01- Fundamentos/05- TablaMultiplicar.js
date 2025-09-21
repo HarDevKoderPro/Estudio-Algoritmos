@@ -54,6 +54,7 @@ TABLA DEL ${numero}
     for (let i = 1; i <= 10; i++) tabla += `${numero} x ${i} = ${numero * i}\n`;
 
     return tabla;
+    
   } catch (e) {
     console.error("❌", e.message);
     return null;
