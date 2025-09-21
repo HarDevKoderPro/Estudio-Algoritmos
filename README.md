@@ -8,8 +8,6 @@
 - Conceptos básicos de programación
 - Variables, tipos de datos y operadores
 - Estructuras de control (condicionales y bucles)
-- Funciones y procedimientos
-- Complejidad computacional básica (Big O)
 
 ---
 
